@@ -7,7 +7,7 @@ import cfg from "../../../config.json"
 
 // axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? '' : '/api';  //关键代码
 const port = cfg.port
-const BASEURL = `http://127.0.0.1:${port}/`;
+export const BASEURL = `http://127.0.0.1:${port}/`;
 // console.log("in request.js: BASEURL = ", BASEURL);
 
 // 创建axios
